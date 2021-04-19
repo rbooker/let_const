@@ -1,0 +1,25 @@
+Exercise:
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+/* Write an ES2015 Version */
+const PI = 3.14;
+
+Quiz:
+1. What is the difference between var and let?
+
+A variable declared with let only exists inside the code block in which it's declared, and while it can be reassigned, it cannot be redeclared.
+A variable declared with var exists globally, unless it is declared inside a function, in which case it is scoped to that function. It can be both reassigned and redeclared.
+
+2. What is the difference between var and const?
+
+A variable declared with const is block-scoped, similar to let. It cannot be reassigned or redeclared, although it can be mutated.
+A variable declared with var exists globally, unless it is declared inside a function, in which case it is scoped to that function. It can be both reassigned and redeclared.
+
+3. What is the difference between let and const?
+
+A variable declared with let can be reassigned. That's essentially the only difference.
+
+4. What is hoisting?
+
+During compilation, variables declarations made with var are "hoisted" to the top of the file, i.e. they are run before any other code. Function declarations are similarly hoisted.
